@@ -34,6 +34,7 @@ CMakeFiles/Grace.dir/game.cpp.o: /home/rower/Desktop/Grace-Cpp/game.cpp \
   /home/rower/Desktop/Grace-Cpp/third_party/SDL3/include/SDL3/SDL_loadso.h \
   /home/rower/Desktop/Grace-Cpp/third_party/SDL3/include/SDL3/SDL_locale.h \
   /home/rower/Desktop/Grace-Cpp/third_party/SDL3/include/SDL3/SDL_log.h \
+  /home/rower/Desktop/Grace-Cpp/third_party/SDL3/include/SDL3/SDL_main.h \
   /home/rower/Desktop/Grace-Cpp/third_party/SDL3/include/SDL3/SDL_messagebox.h \
   /home/rower/Desktop/Grace-Cpp/third_party/SDL3/include/SDL3/SDL_metal.h \
   /home/rower/Desktop/Grace-Cpp/third_party/SDL3/include/SDL3/SDL_misc.h \
@@ -371,7 +372,7 @@ CMakeFiles/Grace.dir/renderer.cpp.o:
 
 /usr/include/gnu/stubs-64.h:
 
-/usr/include/bits/types/struct_tm.h:
+/usr/include/features-time64.h:
 
 /usr/include/bits/types/struct_sched_param.h:
 
@@ -446,6 +447,8 @@ CMakeFiles/Grace.dir/renderer.cpp.o:
 /home/rower/Desktop/Grace-Cpp/third_party/SDL3/include/SDL3/SDL_events.h:
 
 /usr/include/asm-generic/errno.h:
+
+/home/rower/Desktop/Grace-Cpp/third_party/SDL3/include/SDL3/SDL_main.h:
 
 /usr/include/bits/types/struct___jmp_buf_tag.h:
 
@@ -599,6 +602,14 @@ third_party/SDL3/libSDL3.so.0.5.0:
 
 /usr/include/c++/16/bits/new_except.h:
 
+/usr/include/bits/types/error_t.h:
+
+/usr/include/bits/types/clockid_t.h:
+
+/usr/include/bits/stdint-intn.h:
+
+/usr/include/bits/long-double.h:
+
 /usr/include/c++/16/bits/char_traits.h:
 
 /usr/include/bits/types/__fpos_t.h:
@@ -608,14 +619,6 @@ third_party/SDL3/libSDL3.so.0.5.0:
 /usr/include/bits/types/clock_t.h:
 
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/cpu_defines.h:
-
-/usr/include/bits/types/error_t.h:
-
-/usr/include/bits/types/clockid_t.h:
-
-/usr/include/bits/stdint-intn.h:
-
-/usr/include/bits/long-double.h:
 
 /home/rower/Desktop/Grace-Cpp/third_party/SDL3/include/SDL3/SDL_touch.h:
 
@@ -672,6 +675,8 @@ third_party/SDL3/libSDL3.so.0.5.0:
 /usr/include/c++/16/bits/concept_check.h:
 
 /home/rower/Desktop/Grace-Cpp/third_party/SDL3/include/SDL3/SDL_stdinc.h:
+
+/usr/include/bits/types/struct_tm.h:
 
 /usr/include/bits/types/time_t.h:
 
@@ -924,5 +929,3 @@ libglad.a:
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h:
-
-/usr/include/features-time64.h:

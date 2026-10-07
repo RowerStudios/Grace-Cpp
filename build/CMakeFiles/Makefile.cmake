@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/home/rower/Desktop/Grace-Cpp/.git/HEAD"
+  "/home/rower/Desktop/Grace-Cpp/.git/refs/heads/main"
   "/home/rower/Desktop/Grace-Cpp/CMakeLists.txt"
   "CMakeFiles/4.4.3/CMakeCCompiler.cmake"
   "CMakeFiles/4.4.3/CMakeCXXCompiler.cmake"
@@ -15,8 +17,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/cmake.verify_globs"
   "third_party/SDL3/CMakeFiles/SDL_build_config.h.intermediate"
   "third_party/SDL3/CMakeFiles/git-data/grabRef.cmake"
-  "/home/rower/Desktop/Grace-Cpp/third_party/SDL3/.git/HEAD"
-  "/home/rower/Desktop/Grace-Cpp/third_party/SDL3/.git/refs/heads/main"
   "/home/rower/Desktop/Grace-Cpp/third_party/SDL3/CMakeLists.txt"
   "/home/rower/Desktop/Grace-Cpp/third_party/SDL3/cmake/3rdparty.cmake"
   "/home/rower/Desktop/Grace-Cpp/third_party/SDL3/cmake/FindLibUSB.cmake"
