@@ -72,51 +72,154 @@ include CMakeFiles/Grace.dir/flags.make
 CMakeFiles/Grace.dir/codegen:
 .PHONY : CMakeFiles/Grace.dir/codegen
 
-CMakeFiles/Grace.dir/game.cpp.o: CMakeFiles/Grace.dir/flags.make
-CMakeFiles/Grace.dir/game.cpp.o: /home/rower/Desktop/Grace-Cpp/game.cpp
-CMakeFiles/Grace.dir/game.cpp.o: CMakeFiles/Grace.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rower/Desktop/Grace-Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Grace.dir/game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Grace.dir/game.cpp.o -MF CMakeFiles/Grace.dir/game.cpp.o.d -o CMakeFiles/Grace.dir/game.cpp.o -c /home/rower/Desktop/Grace-Cpp/game.cpp
+CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.o: CMakeFiles/Grace.dir/flags.make
+CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.o: Grace_autogen/mocs_compilation.cpp
+CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.o: CMakeFiles/Grace.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rower/Desktop/Grace-Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.o -MF CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.o -c /home/rower/Desktop/Grace-Cpp/build/Grace_autogen/mocs_compilation.cpp
 
-CMakeFiles/Grace.dir/game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Grace.dir/game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rower/Desktop/Grace-Cpp/game.cpp > CMakeFiles/Grace.dir/game.cpp.i
+CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rower/Desktop/Grace-Cpp/build/Grace_autogen/mocs_compilation.cpp > CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.i
 
-CMakeFiles/Grace.dir/game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Grace.dir/game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rower/Desktop/Grace-Cpp/game.cpp -o CMakeFiles/Grace.dir/game.cpp.s
+CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rower/Desktop/Grace-Cpp/build/Grace_autogen/mocs_compilation.cpp -o CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/Grace.dir/renderer.cpp.o: CMakeFiles/Grace.dir/flags.make
-CMakeFiles/Grace.dir/renderer.cpp.o: /home/rower/Desktop/Grace-Cpp/renderer.cpp
-CMakeFiles/Grace.dir/renderer.cpp.o: CMakeFiles/Grace.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rower/Desktop/Grace-Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Grace.dir/renderer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Grace.dir/renderer.cpp.o -MF CMakeFiles/Grace.dir/renderer.cpp.o.d -o CMakeFiles/Grace.dir/renderer.cpp.o -c /home/rower/Desktop/Grace-Cpp/renderer.cpp
+CMakeFiles/Grace.dir/cpp/main.cpp.o: CMakeFiles/Grace.dir/flags.make
+CMakeFiles/Grace.dir/cpp/main.cpp.o: /home/rower/Desktop/Grace-Cpp/cpp/main.cpp
+CMakeFiles/Grace.dir/cpp/main.cpp.o: CMakeFiles/Grace.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rower/Desktop/Grace-Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Grace.dir/cpp/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Grace.dir/cpp/main.cpp.o -MF CMakeFiles/Grace.dir/cpp/main.cpp.o.d -o CMakeFiles/Grace.dir/cpp/main.cpp.o -c /home/rower/Desktop/Grace-Cpp/cpp/main.cpp
 
-CMakeFiles/Grace.dir/renderer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Grace.dir/renderer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rower/Desktop/Grace-Cpp/renderer.cpp > CMakeFiles/Grace.dir/renderer.cpp.i
+CMakeFiles/Grace.dir/cpp/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Grace.dir/cpp/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rower/Desktop/Grace-Cpp/cpp/main.cpp > CMakeFiles/Grace.dir/cpp/main.cpp.i
 
-CMakeFiles/Grace.dir/renderer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Grace.dir/renderer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rower/Desktop/Grace-Cpp/renderer.cpp -o CMakeFiles/Grace.dir/renderer.cpp.s
+CMakeFiles/Grace.dir/cpp/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Grace.dir/cpp/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rower/Desktop/Grace-Cpp/cpp/main.cpp -o CMakeFiles/Grace.dir/cpp/main.cpp.s
+
+CMakeFiles/Grace.dir/cpp/game_widget.cpp.o: CMakeFiles/Grace.dir/flags.make
+CMakeFiles/Grace.dir/cpp/game_widget.cpp.o: /home/rower/Desktop/Grace-Cpp/cpp/game_widget.cpp
+CMakeFiles/Grace.dir/cpp/game_widget.cpp.o: CMakeFiles/Grace.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rower/Desktop/Grace-Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Grace.dir/cpp/game_widget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Grace.dir/cpp/game_widget.cpp.o -MF CMakeFiles/Grace.dir/cpp/game_widget.cpp.o.d -o CMakeFiles/Grace.dir/cpp/game_widget.cpp.o -c /home/rower/Desktop/Grace-Cpp/cpp/game_widget.cpp
+
+CMakeFiles/Grace.dir/cpp/game_widget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Grace.dir/cpp/game_widget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rower/Desktop/Grace-Cpp/cpp/game_widget.cpp > CMakeFiles/Grace.dir/cpp/game_widget.cpp.i
+
+CMakeFiles/Grace.dir/cpp/game_widget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Grace.dir/cpp/game_widget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rower/Desktop/Grace-Cpp/cpp/game_widget.cpp -o CMakeFiles/Grace.dir/cpp/game_widget.cpp.s
+
+CMakeFiles/Grace.dir/cpp/renderer.cpp.o: CMakeFiles/Grace.dir/flags.make
+CMakeFiles/Grace.dir/cpp/renderer.cpp.o: /home/rower/Desktop/Grace-Cpp/cpp/renderer.cpp
+CMakeFiles/Grace.dir/cpp/renderer.cpp.o: CMakeFiles/Grace.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rower/Desktop/Grace-Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Grace.dir/cpp/renderer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Grace.dir/cpp/renderer.cpp.o -MF CMakeFiles/Grace.dir/cpp/renderer.cpp.o.d -o CMakeFiles/Grace.dir/cpp/renderer.cpp.o -c /home/rower/Desktop/Grace-Cpp/cpp/renderer.cpp
+
+CMakeFiles/Grace.dir/cpp/renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Grace.dir/cpp/renderer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rower/Desktop/Grace-Cpp/cpp/renderer.cpp > CMakeFiles/Grace.dir/cpp/renderer.cpp.i
+
+CMakeFiles/Grace.dir/cpp/renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Grace.dir/cpp/renderer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rower/Desktop/Grace-Cpp/cpp/renderer.cpp -o CMakeFiles/Grace.dir/cpp/renderer.cpp.s
+
+CMakeFiles/Grace.dir/cpp/app_settings.cpp.o: CMakeFiles/Grace.dir/flags.make
+CMakeFiles/Grace.dir/cpp/app_settings.cpp.o: /home/rower/Desktop/Grace-Cpp/cpp/app_settings.cpp
+CMakeFiles/Grace.dir/cpp/app_settings.cpp.o: CMakeFiles/Grace.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rower/Desktop/Grace-Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Grace.dir/cpp/app_settings.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Grace.dir/cpp/app_settings.cpp.o -MF CMakeFiles/Grace.dir/cpp/app_settings.cpp.o.d -o CMakeFiles/Grace.dir/cpp/app_settings.cpp.o -c /home/rower/Desktop/Grace-Cpp/cpp/app_settings.cpp
+
+CMakeFiles/Grace.dir/cpp/app_settings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Grace.dir/cpp/app_settings.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rower/Desktop/Grace-Cpp/cpp/app_settings.cpp > CMakeFiles/Grace.dir/cpp/app_settings.cpp.i
+
+CMakeFiles/Grace.dir/cpp/app_settings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Grace.dir/cpp/app_settings.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rower/Desktop/Grace-Cpp/cpp/app_settings.cpp -o CMakeFiles/Grace.dir/cpp/app_settings.cpp.s
+
+CMakeFiles/Grace.dir/cpp/sound.cpp.o: CMakeFiles/Grace.dir/flags.make
+CMakeFiles/Grace.dir/cpp/sound.cpp.o: /home/rower/Desktop/Grace-Cpp/cpp/sound.cpp
+CMakeFiles/Grace.dir/cpp/sound.cpp.o: CMakeFiles/Grace.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rower/Desktop/Grace-Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Grace.dir/cpp/sound.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Grace.dir/cpp/sound.cpp.o -MF CMakeFiles/Grace.dir/cpp/sound.cpp.o.d -o CMakeFiles/Grace.dir/cpp/sound.cpp.o -c /home/rower/Desktop/Grace-Cpp/cpp/sound.cpp
+
+CMakeFiles/Grace.dir/cpp/sound.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Grace.dir/cpp/sound.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rower/Desktop/Grace-Cpp/cpp/sound.cpp > CMakeFiles/Grace.dir/cpp/sound.cpp.i
+
+CMakeFiles/Grace.dir/cpp/sound.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Grace.dir/cpp/sound.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rower/Desktop/Grace-Cpp/cpp/sound.cpp -o CMakeFiles/Grace.dir/cpp/sound.cpp.s
+
+CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.o: CMakeFiles/Grace.dir/flags.make
+CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.o: /home/rower/Desktop/Grace-Cpp/built-in-guis/main_menu.cpp
+CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.o: CMakeFiles/Grace.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rower/Desktop/Grace-Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.o -MF CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.o.d -o CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.o -c /home/rower/Desktop/Grace-Cpp/built-in-guis/main_menu.cpp
+
+CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rower/Desktop/Grace-Cpp/built-in-guis/main_menu.cpp > CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.i
+
+CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rower/Desktop/Grace-Cpp/built-in-guis/main_menu.cpp -o CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.s
+
+CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.o: CMakeFiles/Grace.dir/flags.make
+CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.o: /home/rower/Desktop/Grace-Cpp/built-in-guis/debug_panel.cpp
+CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.o: CMakeFiles/Grace.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rower/Desktop/Grace-Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.o -MF CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.o.d -o CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.o -c /home/rower/Desktop/Grace-Cpp/built-in-guis/debug_panel.cpp
+
+CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rower/Desktop/Grace-Cpp/built-in-guis/debug_panel.cpp > CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.i
+
+CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rower/Desktop/Grace-Cpp/built-in-guis/debug_panel.cpp -o CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.s
 
 # Object files for target Grace
 Grace_OBJECTS = \
-"CMakeFiles/Grace.dir/game.cpp.o" \
-"CMakeFiles/Grace.dir/renderer.cpp.o"
+"CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.o" \
+"CMakeFiles/Grace.dir/cpp/main.cpp.o" \
+"CMakeFiles/Grace.dir/cpp/game_widget.cpp.o" \
+"CMakeFiles/Grace.dir/cpp/renderer.cpp.o" \
+"CMakeFiles/Grace.dir/cpp/app_settings.cpp.o" \
+"CMakeFiles/Grace.dir/cpp/sound.cpp.o" \
+"CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.o" \
+"CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.o"
 
 # External object files for target Grace
 Grace_EXTERNAL_OBJECTS =
 
-Grace: CMakeFiles/Grace.dir/game.cpp.o
-Grace: CMakeFiles/Grace.dir/renderer.cpp.o
+Grace: CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.o
+Grace: CMakeFiles/Grace.dir/cpp/main.cpp.o
+Grace: CMakeFiles/Grace.dir/cpp/game_widget.cpp.o
+Grace: CMakeFiles/Grace.dir/cpp/renderer.cpp.o
+Grace: CMakeFiles/Grace.dir/cpp/app_settings.cpp.o
+Grace: CMakeFiles/Grace.dir/cpp/sound.cpp.o
+Grace: CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.o
+Grace: CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.o
 Grace: CMakeFiles/Grace.dir/build.make
 Grace: CMakeFiles/Grace.dir/compiler_depend.ts
-Grace: third_party/SDL3/libSDL3.so.0.5.0
-Grace: libglad.a
-Grace: /home/rower/Desktop/Grace-Cpp/third_party/SDL3/src/dynapi/SDL_dynapi.sym
+Grace: /usr/lib/libQt6OpenGLWidgets.so.6.11.2
+Grace: /usr/lib/libQt6OpenGL.so.6.11.2
+Grace: libglad.so
+Grace: third_party/SDL_mixer/libSDL3_mixer.so.0.3.0
+Grace: /usr/lib/libSDL3.so.0.4.16
+Grace: /usr/lib/libQt6Widgets.so.6.11.2
+Grace: /usr/lib/libQt6Gui.so.6.11.2
+Grace: /usr/lib/libGLX.so
+Grace: /usr/lib/libOpenGL.so
+Grace: /usr/lib/libQt6Core.so.6.11.2
 Grace: CMakeFiles/Grace.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rower/Desktop/Grace-Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Grace"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rower/Desktop/Grace-Cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Grace"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Grace.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

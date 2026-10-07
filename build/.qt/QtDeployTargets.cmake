@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_SDL3_mixer-shared_FILE /home/rower/Desktop/Grace-Cpp/build/third_party/SDL_mixer/libSDL3_mixer.so.0.3.0)
+set(__QT_DEPLOY_TARGET_SDL3_mixer-shared_TYPE SHARED_LIBRARY)
+set(__QT_DEPLOY_TARGET_glad_FILE /home/rower/Desktop/Grace-Cpp/build/libglad.so)
+set(__QT_DEPLOY_TARGET_glad_TYPE SHARED_LIBRARY)
+set(__QT_DEPLOY_TARGET_Grace_FILE /home/rower/Desktop/Grace-Cpp/build/Grace)
+set(__QT_DEPLOY_TARGET_Grace_TYPE EXECUTABLE)

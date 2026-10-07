@@ -113,7 +113,6 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /home/rower/Desktop/Grace-Cpp/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -144,91 +143,311 @@ Grace/fast:
 .PHONY : Grace/fast
 
 #=============================================================================
-# Target rules for targets named SDL3-shared
+# Target rules for targets named glad_autogen_timestamp_deps
 
 # Build rule for target.
-SDL3-shared: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL3-shared
-.PHONY : SDL3-shared
+glad_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad_autogen_timestamp_deps
+.PHONY : glad_autogen_timestamp_deps
 
 # fast build rule for target.
-SDL3-shared/fast:
-	$(MAKE) $(MAKESILENT) -f third_party/SDL3/CMakeFiles/SDL3-shared.dir/build.make third_party/SDL3/CMakeFiles/SDL3-shared.dir/build
-.PHONY : SDL3-shared/fast
+glad_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad_autogen_timestamp_deps.dir/build.make CMakeFiles/glad_autogen_timestamp_deps.dir/build
+.PHONY : glad_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named SDL3_test
+# Target rules for targets named glad_autogen
 
 # Build rule for target.
-SDL3_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL3_test
-.PHONY : SDL3_test
+glad_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad_autogen
+.PHONY : glad_autogen
 
 # fast build rule for target.
-SDL3_test/fast:
-	$(MAKE) $(MAKESILENT) -f third_party/SDL3/CMakeFiles/SDL3_test.dir/build.make third_party/SDL3/CMakeFiles/SDL3_test.dir/build
-.PHONY : SDL3_test/fast
+glad_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad_autogen.dir/build.make CMakeFiles/glad_autogen.dir/build
+.PHONY : glad_autogen/fast
 
 #=============================================================================
-# Target rules for targets named SDL_uclibc
+# Target rules for targets named Grace_autogen_timestamp_deps
 
 # Build rule for target.
-SDL_uclibc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL_uclibc
-.PHONY : SDL_uclibc
+Grace_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Grace_autogen_timestamp_deps
+.PHONY : Grace_autogen_timestamp_deps
 
 # fast build rule for target.
-SDL_uclibc/fast:
-	$(MAKE) $(MAKESILENT) -f third_party/SDL3/CMakeFiles/SDL_uclibc.dir/build.make third_party/SDL3/CMakeFiles/SDL_uclibc.dir/build
-.PHONY : SDL_uclibc/fast
+Grace_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace_autogen_timestamp_deps.dir/build.make CMakeFiles/Grace_autogen_timestamp_deps.dir/build
+.PHONY : Grace_autogen_timestamp_deps/fast
 
-game.o: game.cpp.o
-.PHONY : game.o
+#=============================================================================
+# Target rules for targets named Grace_autogen
+
+# Build rule for target.
+Grace_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Grace_autogen
+.PHONY : Grace_autogen
+
+# fast build rule for target.
+Grace_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace_autogen.dir/build.make CMakeFiles/Grace_autogen.dir/build
+.PHONY : Grace_autogen/fast
+
+#=============================================================================
+# Target rules for targets named SDL3_mixer-shared
+
+# Build rule for target.
+SDL3_mixer-shared: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL3_mixer-shared
+.PHONY : SDL3_mixer-shared
+
+# fast build rule for target.
+SDL3_mixer-shared/fast:
+	$(MAKE) $(MAKESILENT) -f third_party/SDL_mixer/CMakeFiles/SDL3_mixer-shared.dir/build.make third_party/SDL_mixer/CMakeFiles/SDL3_mixer-shared.dir/build
+.PHONY : SDL3_mixer-shared/fast
+
+#=============================================================================
+# Target rules for targets named SDL3_mixer-shared_autogen_timestamp_deps
+
+# Build rule for target.
+SDL3_mixer-shared_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL3_mixer-shared_autogen_timestamp_deps
+.PHONY : SDL3_mixer-shared_autogen_timestamp_deps
+
+# fast build rule for target.
+SDL3_mixer-shared_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f third_party/SDL_mixer/CMakeFiles/SDL3_mixer-shared_autogen_timestamp_deps.dir/build.make third_party/SDL_mixer/CMakeFiles/SDL3_mixer-shared_autogen_timestamp_deps.dir/build
+.PHONY : SDL3_mixer-shared_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named SDL3_mixer-shared_autogen
+
+# Build rule for target.
+SDL3_mixer-shared_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SDL3_mixer-shared_autogen
+.PHONY : SDL3_mixer-shared_autogen
+
+# fast build rule for target.
+SDL3_mixer-shared_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f third_party/SDL_mixer/CMakeFiles/SDL3_mixer-shared_autogen.dir/build.make third_party/SDL_mixer/CMakeFiles/SDL3_mixer-shared_autogen.dir/build
+.PHONY : SDL3_mixer-shared_autogen/fast
+
+Grace_autogen/mocs_compilation.o: Grace_autogen/mocs_compilation.cpp.o
+.PHONY : Grace_autogen/mocs_compilation.o
 
 # target to build an object file
-game.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/game.cpp.o
-.PHONY : game.cpp.o
+Grace_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.o
+.PHONY : Grace_autogen/mocs_compilation.cpp.o
 
-game.i: game.cpp.i
-.PHONY : game.i
+Grace_autogen/mocs_compilation.i: Grace_autogen/mocs_compilation.cpp.i
+.PHONY : Grace_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/game.cpp.i
-.PHONY : game.cpp.i
+Grace_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.i
+.PHONY : Grace_autogen/mocs_compilation.cpp.i
 
-game.s: game.cpp.s
-.PHONY : game.s
+Grace_autogen/mocs_compilation.s: Grace_autogen/mocs_compilation.cpp.s
+.PHONY : Grace_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/game.cpp.s
-.PHONY : game.cpp.s
+Grace_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/Grace_autogen/mocs_compilation.cpp.s
+.PHONY : Grace_autogen/mocs_compilation.cpp.s
 
-renderer.o: renderer.cpp.o
-.PHONY : renderer.o
+built-in-guis/debug_panel.o: built-in-guis/debug_panel.cpp.o
+.PHONY : built-in-guis/debug_panel.o
 
 # target to build an object file
-renderer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/renderer.cpp.o
-.PHONY : renderer.cpp.o
+built-in-guis/debug_panel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.o
+.PHONY : built-in-guis/debug_panel.cpp.o
 
-renderer.i: renderer.cpp.i
-.PHONY : renderer.i
+built-in-guis/debug_panel.i: built-in-guis/debug_panel.cpp.i
+.PHONY : built-in-guis/debug_panel.i
 
 # target to preprocess a source file
-renderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/renderer.cpp.i
-.PHONY : renderer.cpp.i
+built-in-guis/debug_panel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.i
+.PHONY : built-in-guis/debug_panel.cpp.i
 
-renderer.s: renderer.cpp.s
-.PHONY : renderer.s
+built-in-guis/debug_panel.s: built-in-guis/debug_panel.cpp.s
+.PHONY : built-in-guis/debug_panel.s
 
 # target to generate assembly for a file
-renderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/renderer.cpp.s
-.PHONY : renderer.cpp.s
+built-in-guis/debug_panel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/built-in-guis/debug_panel.cpp.s
+.PHONY : built-in-guis/debug_panel.cpp.s
+
+built-in-guis/main_menu.o: built-in-guis/main_menu.cpp.o
+.PHONY : built-in-guis/main_menu.o
+
+# target to build an object file
+built-in-guis/main_menu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.o
+.PHONY : built-in-guis/main_menu.cpp.o
+
+built-in-guis/main_menu.i: built-in-guis/main_menu.cpp.i
+.PHONY : built-in-guis/main_menu.i
+
+# target to preprocess a source file
+built-in-guis/main_menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.i
+.PHONY : built-in-guis/main_menu.cpp.i
+
+built-in-guis/main_menu.s: built-in-guis/main_menu.cpp.s
+.PHONY : built-in-guis/main_menu.s
+
+# target to generate assembly for a file
+built-in-guis/main_menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/built-in-guis/main_menu.cpp.s
+.PHONY : built-in-guis/main_menu.cpp.s
+
+cpp/app_settings.o: cpp/app_settings.cpp.o
+.PHONY : cpp/app_settings.o
+
+# target to build an object file
+cpp/app_settings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/cpp/app_settings.cpp.o
+.PHONY : cpp/app_settings.cpp.o
+
+cpp/app_settings.i: cpp/app_settings.cpp.i
+.PHONY : cpp/app_settings.i
+
+# target to preprocess a source file
+cpp/app_settings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/cpp/app_settings.cpp.i
+.PHONY : cpp/app_settings.cpp.i
+
+cpp/app_settings.s: cpp/app_settings.cpp.s
+.PHONY : cpp/app_settings.s
+
+# target to generate assembly for a file
+cpp/app_settings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/cpp/app_settings.cpp.s
+.PHONY : cpp/app_settings.cpp.s
+
+cpp/game_widget.o: cpp/game_widget.cpp.o
+.PHONY : cpp/game_widget.o
+
+# target to build an object file
+cpp/game_widget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/cpp/game_widget.cpp.o
+.PHONY : cpp/game_widget.cpp.o
+
+cpp/game_widget.i: cpp/game_widget.cpp.i
+.PHONY : cpp/game_widget.i
+
+# target to preprocess a source file
+cpp/game_widget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/cpp/game_widget.cpp.i
+.PHONY : cpp/game_widget.cpp.i
+
+cpp/game_widget.s: cpp/game_widget.cpp.s
+.PHONY : cpp/game_widget.s
+
+# target to generate assembly for a file
+cpp/game_widget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/cpp/game_widget.cpp.s
+.PHONY : cpp/game_widget.cpp.s
+
+cpp/main.o: cpp/main.cpp.o
+.PHONY : cpp/main.o
+
+# target to build an object file
+cpp/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/cpp/main.cpp.o
+.PHONY : cpp/main.cpp.o
+
+cpp/main.i: cpp/main.cpp.i
+.PHONY : cpp/main.i
+
+# target to preprocess a source file
+cpp/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/cpp/main.cpp.i
+.PHONY : cpp/main.cpp.i
+
+cpp/main.s: cpp/main.cpp.s
+.PHONY : cpp/main.s
+
+# target to generate assembly for a file
+cpp/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/cpp/main.cpp.s
+.PHONY : cpp/main.cpp.s
+
+cpp/renderer.o: cpp/renderer.cpp.o
+.PHONY : cpp/renderer.o
+
+# target to build an object file
+cpp/renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/cpp/renderer.cpp.o
+.PHONY : cpp/renderer.cpp.o
+
+cpp/renderer.i: cpp/renderer.cpp.i
+.PHONY : cpp/renderer.i
+
+# target to preprocess a source file
+cpp/renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/cpp/renderer.cpp.i
+.PHONY : cpp/renderer.cpp.i
+
+cpp/renderer.s: cpp/renderer.cpp.s
+.PHONY : cpp/renderer.s
+
+# target to generate assembly for a file
+cpp/renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/cpp/renderer.cpp.s
+.PHONY : cpp/renderer.cpp.s
+
+cpp/sound.o: cpp/sound.cpp.o
+.PHONY : cpp/sound.o
+
+# target to build an object file
+cpp/sound.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/cpp/sound.cpp.o
+.PHONY : cpp/sound.cpp.o
+
+cpp/sound.i: cpp/sound.cpp.i
+.PHONY : cpp/sound.i
+
+# target to preprocess a source file
+cpp/sound.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/cpp/sound.cpp.i
+.PHONY : cpp/sound.cpp.i
+
+cpp/sound.s: cpp/sound.cpp.s
+.PHONY : cpp/sound.s
+
+# target to generate assembly for a file
+cpp/sound.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Grace.dir/build.make CMakeFiles/Grace.dir/cpp/sound.cpp.s
+.PHONY : cpp/sound.cpp.s
+
+glad_autogen/mocs_compilation.o: glad_autogen/mocs_compilation.cpp.o
+.PHONY : glad_autogen/mocs_compilation.o
+
+# target to build an object file
+glad_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/glad_autogen/mocs_compilation.cpp.o
+.PHONY : glad_autogen/mocs_compilation.cpp.o
+
+glad_autogen/mocs_compilation.i: glad_autogen/mocs_compilation.cpp.i
+.PHONY : glad_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+glad_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/glad_autogen/mocs_compilation.cpp.i
+.PHONY : glad_autogen/mocs_compilation.cpp.i
+
+glad_autogen/mocs_compilation.s: glad_autogen/mocs_compilation.cpp.s
+.PHONY : glad_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+glad_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/glad_autogen/mocs_compilation.cpp.s
+.PHONY : glad_autogen/mocs_compilation.cpp.s
 
 third_party/glad/src/gl.o: third_party/glad/src/gl.c.o
 .PHONY : third_party/glad/src/gl.o
@@ -262,17 +481,42 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Grace_autogen"
+	@echo "... Grace_autogen_timestamp_deps"
+	@echo "... SDL3_mixer-shared_autogen"
+	@echo "... SDL3_mixer-shared_autogen_timestamp_deps"
+	@echo "... glad_autogen"
+	@echo "... glad_autogen_timestamp_deps"
 	@echo "... Grace"
-	@echo "... SDL3-shared"
-	@echo "... SDL3_test"
-	@echo "... SDL_uclibc"
+	@echo "... SDL3_mixer-shared"
 	@echo "... glad"
-	@echo "... game.o"
-	@echo "... game.i"
-	@echo "... game.s"
-	@echo "... renderer.o"
-	@echo "... renderer.i"
-	@echo "... renderer.s"
+	@echo "... Grace_autogen/mocs_compilation.o"
+	@echo "... Grace_autogen/mocs_compilation.i"
+	@echo "... Grace_autogen/mocs_compilation.s"
+	@echo "... built-in-guis/debug_panel.o"
+	@echo "... built-in-guis/debug_panel.i"
+	@echo "... built-in-guis/debug_panel.s"
+	@echo "... built-in-guis/main_menu.o"
+	@echo "... built-in-guis/main_menu.i"
+	@echo "... built-in-guis/main_menu.s"
+	@echo "... cpp/app_settings.o"
+	@echo "... cpp/app_settings.i"
+	@echo "... cpp/app_settings.s"
+	@echo "... cpp/game_widget.o"
+	@echo "... cpp/game_widget.i"
+	@echo "... cpp/game_widget.s"
+	@echo "... cpp/main.o"
+	@echo "... cpp/main.i"
+	@echo "... cpp/main.s"
+	@echo "... cpp/renderer.o"
+	@echo "... cpp/renderer.i"
+	@echo "... cpp/renderer.s"
+	@echo "... cpp/sound.o"
+	@echo "... cpp/sound.i"
+	@echo "... cpp/sound.s"
+	@echo "... glad_autogen/mocs_compilation.o"
+	@echo "... glad_autogen/mocs_compilation.i"
+	@echo "... glad_autogen/mocs_compilation.s"
 	@echo "... third_party/glad/src/gl.o"
 	@echo "... third_party/glad/src/gl.i"
 	@echo "... third_party/glad/src/gl.s"
@@ -287,7 +531,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /home/rower/Desktop/Grace-Cpp/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

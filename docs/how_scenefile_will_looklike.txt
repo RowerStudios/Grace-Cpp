@@ -1,0 +1,22 @@
+so the scene file will look like nothing it has nothing ofc. 
+but when a scene is created,
+the format should be like this
+
+types of nodes :
+node (which is a node), 2d_node (2d node yes), 3d_node (3d node), 2d_node can have text_2d with args (text)
+
+for eg:
+n1 = new_node("node")
+n1.properties = {
+    n1.main = true
+    n1.name = "main_node"
+}
+
+n2 = new_node("text_2d")
+n2.properties = {
+    n2.parent = n1
+    n2.name = "title"
+}
+
+
+currently made nodes = {node,node_2d,node_3d,text_2d,sound}

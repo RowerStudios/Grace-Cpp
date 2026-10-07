@@ -2,7 +2,7 @@
 	"InstallScripts" : 
 	[
 		"/home/rower/Desktop/Grace-Cpp/build/cmake_install.cmake",
-		"/home/rower/Desktop/Grace-Cpp/build/third_party/SDL3/cmake_install.cmake"
+		"/home/rower/Desktop/Grace-Cpp/build/third_party/SDL_mixer/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

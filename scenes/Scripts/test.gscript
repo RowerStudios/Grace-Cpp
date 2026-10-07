@@ -1,0 +1,22 @@
+define button which is a button as parent.n4
+if button then
+    print("button exists")
+else
+    exit_game(1)
+
+define click which is a function as button.clicked(lmb) #"which is a" is optional and the argument can be lmb,rmb,mmb
+if click then
+    print("button got clicked")
+end
+
+define hover as button.hover()
+if hover then
+    print("button was hovered")
+end
+
+define hoverend as button.hover_end()
+if hoverend then
+    print("mouse moved away from button")
+end
+
+

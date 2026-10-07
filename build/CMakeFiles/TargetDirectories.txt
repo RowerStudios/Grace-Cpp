@@ -2,8 +2,12 @@
 /home/rower/Desktop/Grace-Cpp/build/CMakeFiles/Grace.dir
 /home/rower/Desktop/Grace-Cpp/build/CMakeFiles/edit_cache.dir
 /home/rower/Desktop/Grace-Cpp/build/CMakeFiles/rebuild_cache.dir
-/home/rower/Desktop/Grace-Cpp/build/third_party/SDL3/CMakeFiles/SDL3-shared.dir
-/home/rower/Desktop/Grace-Cpp/build/third_party/SDL3/CMakeFiles/SDL3_test.dir
-/home/rower/Desktop/Grace-Cpp/build/third_party/SDL3/CMakeFiles/SDL_uclibc.dir
-/home/rower/Desktop/Grace-Cpp/build/third_party/SDL3/CMakeFiles/edit_cache.dir
-/home/rower/Desktop/Grace-Cpp/build/third_party/SDL3/CMakeFiles/rebuild_cache.dir
+/home/rower/Desktop/Grace-Cpp/build/CMakeFiles/glad_autogen_timestamp_deps.dir
+/home/rower/Desktop/Grace-Cpp/build/CMakeFiles/glad_autogen.dir
+/home/rower/Desktop/Grace-Cpp/build/CMakeFiles/Grace_autogen_timestamp_deps.dir
+/home/rower/Desktop/Grace-Cpp/build/CMakeFiles/Grace_autogen.dir
+/home/rower/Desktop/Grace-Cpp/build/third_party/SDL_mixer/CMakeFiles/SDL3_mixer-shared.dir
+/home/rower/Desktop/Grace-Cpp/build/third_party/SDL_mixer/CMakeFiles/edit_cache.dir
+/home/rower/Desktop/Grace-Cpp/build/third_party/SDL_mixer/CMakeFiles/rebuild_cache.dir
+/home/rower/Desktop/Grace-Cpp/build/third_party/SDL_mixer/CMakeFiles/SDL3_mixer-shared_autogen_timestamp_deps.dir
+/home/rower/Desktop/Grace-Cpp/build/third_party/SDL_mixer/CMakeFiles/SDL3_mixer-shared_autogen.dir
