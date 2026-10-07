@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Grace.dir/link.d CMakeFiles/Grace.dir/game.cpp.o CMakeFiles/Grace.dir/renderer.cpp.o -o Grace  -Wl,-rpath,/home/rower/Desktop/Grace-Cpp/build/third_party/SDL3 third_party/SDL3/libSDL3.so.0.5.0 libglad.a

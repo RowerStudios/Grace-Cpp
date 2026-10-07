@@ -1,0 +1,23 @@
+third_party/SDL3/CMakeFiles/SDL3-shared.dir/src/render/gpu/SDL_render_gpu.c.o: \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/src/render/gpu/SDL_render_gpu.c \
+ /usr/include/stdc-predef.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/src/SDL_internal.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/src/render/gpu/../../events/SDL_windowevents_c.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/src/render/gpu/../../video/SDL_pixels_c.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/src/render/gpu/../../video/SDL_blit.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/src/render/gpu/../../video/SDL_sysvideo.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/include/SDL3/SDL_vulkan.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/include/SDL3/SDL_stdinc.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/include/SDL3/SDL_error.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/include/SDL3/SDL_video.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/include/SDL3/SDL_begin_code.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/include/SDL3/SDL_close_code.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/src/render/gpu/../../video/SDL_surface_c.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/src/render/gpu/../../video/SDL_yuv_c.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/src/render/gpu/../SDL_d3dmath.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/src/render/gpu/../SDL_sysrender.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/src/render/gpu/../../video/SDL_surface_c.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/src/render/gpu/../SDL_yuv_sw_c.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/src/render/gpu/SDL_gpu_util.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/src/render/gpu/SDL_pipeline_gpu.h \
+ /home/rower/Desktop/Grace-Cpp/third_party/SDL3/src/render/gpu/SDL_shaders_gpu.h
